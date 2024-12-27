@@ -1,5 +1,5 @@
 import logging
-]import sys
+import sys
 
 logging.basicConfig(stream=sys.stdout, level=logging.DEBUG, datefmt='%H:%M:%S', format='[%(name)s]  %(levelname)s %(asctime)s %(threadName)s %(message)s')
 
